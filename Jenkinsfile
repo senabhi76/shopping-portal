@@ -12,7 +12,7 @@ pipeline{
         stage('compile-app'){
             steps{
                 echo 'this is the compile job'
-                sh 'npn install'
+                sh 'npm install'
             }
         }
         stage('test-app'){
